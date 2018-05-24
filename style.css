@@ -1,0 +1,74 @@
+
+.col-md-8 {
+	background: url("https://www.123freevectors.com/wp-content/original/23082-light-gold-square-background-pattern.jpg");
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.treasure-chest-image {
+	width: 300px;
+	height: 300px;
+	border-width: medium;
+	border: solid indigo;
+}
+
+.ruby-image {
+	width: 100px;
+	height: 100px;
+	border-width: medium;
+	border: solid indigo;
+}
+
+.sapphire-image {
+	width: 100px;
+	height: 100px;
+	border-width: medium;
+	border: solid indigo;
+}
+
+.emerald-image {
+	width: 100px;
+	height: 100px;
+	border-width: medium;
+	border: solid indigo;
+}
+
+.amethyst-image {
+	width: 100px;
+	height: 100px;
+	border-width: medium;
+	border: solid indigo;
+}
+
+h1 {
+	font-size: 32px;
+	color: green;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 22px;
+	color: black;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 18px;
+	color: black;
+	font-weight: normal;
+}
+
+.totalScore {
+		font-size: 20px;
+		color: #ffffe6;
+		font-weight: bold;
+		position: relative;
+		top: 100px;
+		left: 20px;
+}
+
+#yourTotalScore {
+display: block;
+}
+

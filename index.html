@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Jewel Collector</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div id="jewelGame"></div>
+
+<div class="container">
+
+	<div class="row">
+
+		<div class="col-md-8">
+	
+			<h1> Jewel Collector!</h1>
+
+				<h3>You will see a random number in the treasure chest at the start of the game. There are four jewels below the treasure chest. Each jewel is assigned a secret value that remains constant throughout the game. By clicking on a jewel, you will add a specific amount of points to your total score.
+				<br>
+				<br>
+				~You win the game by matching your total score to the random number in the treasure chest.
+				<br>
+				~You lose the game if your total score goes above the random number in the treasure chest.
+				<br>
+				~Each time the game re-starts, the value of each jewel will change, as will the random number in the treasure chest.
+				</h3>
+				<h2>Number to guess: 
+						<span id="targetNumber"></span>
+				</h2>
+				<h2>Wins: 
+					<span id="wins"></span>
+				</h2>	
+				<h2>Losses: 
+					<span id="losses"></span>
+				</h2>
+
+				<div class="row">
+					<div class="column-lg-12">
+							<h3 class="totalScore">Your total score: 
+									<span id="yourTotalScore">
+										___
+									</span>
+							</h3>
+						<img class="treasure-chest-image"
+						src="images/chest.jpg"
+						alt="treasure chest">
+					</div>
+				</div>
+				<br>
+				<br>	
+
+		<!-- 1 of 4 -->
+		<!-- Need to create a way for totalScore to show up in a field that is superimposed over the treasure chest. -->
+
+
+				<div class="row">
+						<div id="jewels">
+
+								<img class="ruby-image"
+								src="images/ruby.jpg"
+								alt="ruby">
+
+								<img class="sapphire-image"
+								src="images/sapphire.jpg"
+								alt="sapphire">
+
+								<img class="emerald-image"
+								src="images/emerald.jpg"
+								alt="emerald">
+
+								<img class="amethyst-image"
+								src="images/amethyst.jpg"
+								alt="amethyst">
+								
+						</div>
+				</div>
+		</div>
+	</div>
+
+</div>
+
+<!-- JAVASCRIPT -->
+<!-- jQuery link: -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+
+<!-- 2 of 4 -->
+<!-- Need help getting the JS programming into the JS page and having it still work -->
+
+<script type="text/javascript" src="javascript.js">
+</script>
+
+</body>
+</html>
