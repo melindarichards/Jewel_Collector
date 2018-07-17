@@ -12,5 +12,7 @@ The player loses if his/her score goes above the random number.
 
 The game restarts whenever the player wins or loses, at which point a new random number appears. Also, all the jewels will have four new hidden values. 
 
+![Screenshot](images/screenshotJewelCollector.png)
+
 -----------
 This game was created with HTML, CSS, and JavaScript.
